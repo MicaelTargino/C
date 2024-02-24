@@ -3,8 +3,16 @@
   
 ## Milestones
 - ✅ fixed array
+- Basic Pointer
+- Pointer Arithmetic
+- Pointers and Functions
+- Pointer to Pointer
+- Function Pointers
+- Dynamic Memory Allocation
+- Structs and Pointers
 - dynamic array
 - strings
 - linked lists
 - sets
 - hash table (map)
+- Trees and Graphs
