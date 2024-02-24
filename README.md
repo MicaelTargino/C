@@ -3,7 +3,7 @@
   
 ## Milestones
 - ✅ fixed array
-- Basic Pointer
+- ✅ Basic Pointer
 - Pointer Arithmetic
 - Pointers and Functions
 - Pointer to Pointer
@@ -20,10 +20,10 @@
 
 ## Milestones Descriptions
 
-### Pointer Basics
+### ✅ Pointer Basics
 
-- Write a program to declare an integer and a pointer to an integer. Assign the address of the integer to the pointer and change the value of the integer using the pointer.
-- Create a function that swaps the values of two integers using pointers.
+- ✅ Write a program to declare an integer and a pointer to an integer. Assign the address of the integer to the pointer and change the value of the integer using the pointer.
+- ✅ Create a function that swaps the values of two integers using pointers.
 
 ### Pointer Arithmetic
 
