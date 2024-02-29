@@ -4,7 +4,7 @@
 ## Milestones
 - ✅ fixed array
 - ✅ Basic Pointer
-- Pointer Arithmetic
+- ✅ Pointer Arithmetic
 - Pointers and Functions
 - Pointer to Pointer
 - Function Pointers
