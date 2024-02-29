@@ -27,7 +27,7 @@
 
 ### Pointer Arithmetic
 
-- Given an array of integers, write a program to print the array using pointer arithmetic instead of array indexing.
+- ✅ Given an array of integers, write a program to print the array using pointer arithmetic instead of array indexing.
 - Modify the above program to reverse the array using pointer arithmetic.
 
 ### Pointers and Functions
