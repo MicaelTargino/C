@@ -33,7 +33,7 @@
 ### Pointers and Functions
 
 - ✅ Write a function that returns the length of a string using a pointer to traverse the string (without using the `strlen` function).
-- Implement a function that takes two pointers to integer arrays and their sizes as parameters, and prints the sum of each element in the arrays (assume both arrays are of the same size).
+- ✅ Implement a function that takes two pointers to integer arrays and their sizes as parameters, and prints the sum of each element in the arrays (assume both arrays are of the same size).
 
 ### Pointer to Pointer
 
