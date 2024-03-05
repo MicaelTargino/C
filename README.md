@@ -5,7 +5,7 @@
 - ✅ fixed array
 - ✅ Basic Pointer
 - ✅ Pointer Arithmetic
-- Pointers and Functions
+- ✅ Pointers and Functions
 - Pointer to Pointer
 - Function Pointers
 - Dynamic Memory Allocation
@@ -37,7 +37,7 @@
 
 ### Pointer to Pointer
 
-- Demonstrate the use of a pointer to a pointer by modifying a variable at three levels of indirection.
+- ✅ Demonstrate the use of a pointer to a pointer by modifying a variable at three levels of indirection.
 - Create a dynamic 2D array using a pointer to a pointer and fill it with values, then print the 2D array.
 
 ### Function Pointers
