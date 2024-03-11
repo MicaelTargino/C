@@ -7,7 +7,7 @@
 - ✅ Pointer Arithmetic
 - ✅ Pointers and Functions
 - ✅ Pointer to Pointer
-- Function Pointers
+- ✅ Function Pointers
 - Dynamic Memory Allocation
 - Structs and Pointers
 - dynamic array
@@ -43,7 +43,7 @@
 ### Function Pointers
 
 - ✅ Write a function that takes a function pointer as an argument and calls the function pointed to.
-- Implement a simple calculator (add, subtract, multiply, divide) using function pointers where the operation is chosen at runtime.
+- ✅ Implement a simple calculator (add, subtract, multiply, divide) using function pointers where the operation is chosen at runtime.
 
 ### Dynamic Memory Allocation
 
