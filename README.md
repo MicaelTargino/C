@@ -42,7 +42,7 @@
 
 ### Function Pointers
 
-- Write a function that takes a function pointer as an argument and calls the function pointed to.
+- ✅ Write a function that takes a function pointer as an argument and calls the function pointed to.
 - Implement a simple calculator (add, subtract, multiply, divide) using function pointers where the operation is chosen at runtime.
 
 ### Dynamic Memory Allocation
