@@ -38,7 +38,7 @@
 ### Pointer to Pointer
 
 - ✅ Demonstrate the use of a pointer to a pointer by modifying a variable at three levels of indirection.
-- Create a dynamic 2D array using a pointer to a pointer and fill it with values, then print the 2D array.
+- Create a 2D array using a pointer to a pointer and fill it with values, then print the 2D array.
 
 ### Function Pointers
 
