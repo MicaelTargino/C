@@ -9,7 +9,7 @@
 - ✅ Pointer to Pointer
 - ✅ Function Pointers
 - ✅ Dynamic Memory Allocation
-- Structs and Pointers
+- ✅ Structs and Pointers
 - dynamic array
 - strings
 - linked lists
