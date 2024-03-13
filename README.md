@@ -8,7 +8,7 @@
 - ✅ Pointers and Functions
 - ✅ Pointer to Pointer
 - ✅ Function Pointers
-- Dynamic Memory Allocation
+- ✅ Dynamic Memory Allocation
 - Structs and Pointers
 - dynamic array
 - strings
