@@ -53,7 +53,7 @@
 ### Structures and Pointers
 
 - ✅ Define a structure for a student (including name, age, and GPA) and demonstrate how to access and modify its fields using pointers.
-- Write a function that sorts an array of structures containing student information by GPA using pointers.
+- ✅ Write a function that sorts an array of structures containing student information by GPA using pointers.
 
 ### Dynamic Size Arrays
 
