@@ -48,7 +48,7 @@
 ### Dynamic Memory Allocation
 
 - ✅ Use `malloc` and `free` to dynamically allocate memory for an array of integers and fill it with random numbers, then free the memory properly.
-- Create a program that uses pointers to copy a string to another string dynamically allocated (without using `strcpy`).
+- ✅ Create a program that uses pointers to copy a string to another string dynamically allocated (without using `strcpy`).
 
 ### Structures and Pointers
 
