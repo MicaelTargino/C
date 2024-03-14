@@ -1,15 +1,17 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-void printArray(int *array) {
-    int len = sizeof(array) / sizeof(array[0]);
-    for(int j; j < len; j++) {
-        printf("%d", array[j]);
+void printArray(int *array, int length) {
+    for(int j = 0; j < length; j++) {
+        if (array[j] != -1) {
+            printf("%d ", array[j]);
+        }
     }
+    printf("\n");
 }
 
 int calcArrayLen(int *array, int totalSize) {
     int length = 0;
-
     for(int i = 0; i < totalSize; i++) {
         if (array[i] != -1) {
             length++;
@@ -18,53 +20,46 @@ int calcArrayLen(int *array, int totalSize) {
     return length;
 }
 
-void appendItem(int *array, int num) {
-    printf("Endereco do array: %p\n", &array);
-
-    int totalSize = sizeof(array) / sizeof(array[0]);
-    int length = calcArrayLen(array, totalSize);
-
-    if (length == totalSize) {
-        printf("Array is full\n");
-
-        // from here to below I dont now where's the problem
-
-        // allocate a new array in the memory with bigger size
-        int *new_arr_ptr = (int*) malloc(2 * totalSize);
-
-        // copy the elements of the array to the new array and add the new num
-        for(int j; j < totalSize; j++) {
-            new_arr_ptr[j] = array[j];
+void appendItem(int **array, int *totalSize, int num) {
+    int length = calcArrayLen(*array, *totalSize);
+    if (length == *totalSize) {
+        // Allocate a new array in the memory with a bigger size
+        int newSize = 2 * (*totalSize);
+        int *new_arr_ptr = (int*)malloc(newSize * sizeof(int));
+        
+        // Copy the elements of the array to the new array
+        for(int j = 0; j < *totalSize; j++) {
+            new_arr_ptr[j] = (*array)[j];
+        }
+        
+        // Initialize the new part of the array
+        for (int j = *totalSize; j < newSize; j++) {
+            new_arr_ptr[j] = -1; // Initialize new elements to -1
         }
 
-        totalSize = 2 * totalSize;
-        for(int i; i < totalSize; i++) {
-            printf("%d", new_arr_ptr[i]);
-        }
-
-        // modify the array pointer to the new array
-        array = new_arr_ptr;
-
-        // free the first array pointer
-        free(new_arr_ptr);
-
+        // Free the old array and update the pointer
+        free(*array);
+        *array = new_arr_ptr;
+        // Append the new item now that the array has been properly initialized
+        (*array)[length] = num;
+        *totalSize = newSize; // Update the total size
     } else {
-        array[length] = num;
+        (*array)[length] = num; // Append the new item if there's space
     }
-
 }
 
-int main(){
-    int *array_ptr = (int*) malloc(2 * sizeof(int));
-    int num;
-    int inserting = 1;
 
-    // initialize the array
-    for(int j; j < 2; j++) {
+int main() {
+    int totalSize = 2;
+    int *array_ptr = (int*)malloc(totalSize * sizeof(int));
+
+    // Initialize the array
+    for(int j = 0; j < totalSize; j++) {
         array_ptr[j] = -1;
     }
 
-    while(inserting) {
+    int num;
+    while(1) {
         printf("Type an Integer to fill the array (-1 to exit): ");
         scanf("%d", &num);
 
@@ -72,10 +67,12 @@ int main(){
             break;
         }
 
-        appendItem(array_ptr,num);
+        appendItem(&array_ptr, &totalSize, num);
     }
 
-    printArray(array_ptr);
+    int length = calcArrayLen(array_ptr, totalSize);
+    printArray(array_ptr, length);
+    free(array_ptr); // Don't forget to free the allocated memory!
 
     return 0;
 }

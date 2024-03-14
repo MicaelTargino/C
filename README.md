@@ -57,7 +57,7 @@
 
 ### Dynamic Size Arrays
 
-- **Implement a Vector**: Create your own dynamic size array (similar to C++ vector) that can resize itself as items are added or removed.
+- ✅ **Implement a Vector**: Create your own dynamic size array (similar to C++ vector) that can resize itself as items are added or removed.
 - **Array of Strings**: Dynamically allocate an array of strings where each string is also dynamically allocated. Implement functions to add, remove, and search for strings.
 - **Merge Arrays**: Write a function to merge two dynamically allocated arrays into a new dynamically allocated array, ensuring no memory leaks.
 
