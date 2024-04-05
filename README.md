@@ -10,7 +10,7 @@
 - ✅ Function Pointers
 - ✅ Dynamic Memory Allocation
 - ✅ Structs and Pointers
-- dynamic array
+- ✅ dynamic array
 - strings
 - linked lists
 - hash table (map)
@@ -58,7 +58,7 @@
 ### Dynamic Size Arrays
 
 - ✅ **Implement a Vector**: Create your own dynamic size array (similar to C++ vector) that can resize itself as items are added or removed.
-- **Merge Arrays**: Write a function to merge two dynamically allocated arrays into a new dynamically allocated array, ensuring no memory leaks.
+- ✅ **Merge Arrays**: Write a function to merge two dynamically allocated arrays into a new dynamically allocated array, ensuring no memory leaks.
 
 ### Strings
 
