@@ -65,7 +65,6 @@
 - **String Concatenation**: Write a function that concatenates two strings dynamically, ensuring the resulting string is properly null-terminated.
 - **String Split**: Implement a function that splits a string into an array of strings based on a delimiter. Make sure to dynamically allocate memory for the array and the strings within it.
 - **Reverse String**: Create a function to reverse a string in place without using any additional dynamic memory allocation.
-- **Array of Strings**: Dynamically allocate an array of strings where each string is also dynamically allocated. Implement functions to add, remove, and search for strings.
 
 ### Linked Lists
 
