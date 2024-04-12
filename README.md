@@ -63,7 +63,6 @@
 ### Strings
 
 - ✅ **String Concatenation**: Write a function that concatenates two strings dynamically, ensuring the resulting string is properly null-terminated.
-- **String Split**: Implement a function that splits a string into an array of strings based on a delimiter. Make sure to dynamically allocate memory for the array and the strings within it.
 - **Reverse String**: Create a function to reverse a string in place without using any additional dynamic memory allocation.
 
 ### Linked Lists
@@ -82,7 +81,6 @@
 - **Implement a Set**: Create a dynamic set data structure that supports insertion, deletion, and check for existence operations efficiently.
 - **Set Operations**: Implement set union, intersection, and difference operations for your dynamic set structure.
 - **Subset Check**: Write a function to check if one set is a subset of another using your dynamic set implementation.
-
 
 ### Trees
 
