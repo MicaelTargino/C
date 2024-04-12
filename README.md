@@ -1,6 +1,7 @@
 # The goal
   This repo was created to store my studies and practices while studying the fundamental of the C language, documenting my progress into leaning the syntax and the memory management.
 
+## Further Studies
   As I continue to deepen my knowledge in the field of computer science, I'm exploring more advanced topics such as data structures and algorithms. Documentation of these advanced topics will be maintained in a separate repository to keep the studies organized and focused.
 
   - **Data Structures and Algorithms (leetcode)**: For detailed studies on data structures and algorithms, please visit [this repo](https://github.com/MicaelTargino/leetcode)
