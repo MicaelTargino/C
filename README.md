@@ -11,7 +11,7 @@
 - ✅ Dynamic Memory Allocation
 - ✅ Structs and Pointers
 - ✅ dynamic array
-- strings
+- ✅ strings
 - linked lists
 - hash table (map)
 - sets
@@ -63,7 +63,7 @@
 ### Strings
 
 - ✅ **String Concatenation**: Write a function that concatenates two strings dynamically, ensuring the resulting string is properly null-terminated.
-- **Reverse String**: Create a function to reverse a string in place without using any additional dynamic memory allocation.
+- ✅ **Reverse String**: Create a function to reverse a string in place without using any additional dynamic memory allocation.
 
 ### Linked Lists
 
