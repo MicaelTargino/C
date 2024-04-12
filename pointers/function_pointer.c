@@ -17,24 +17,3 @@ int main() {
 
     return 0;
 }
-
-
-// #include <stdio.h>
-// #include <math.h>
-
-// void power_to(int num) {
-//     printf("%d ", pow(num, 2));
-// }
-
-// int main() {
-//     int nums[5] = {1, 2, 3, 4, 5};
-//     int *arr_ptr = nums;
-//     void (*function_ptr)(int) = &power_to;
-
-//     for(int i = 0; i < 5; i++) {
-//         (*function_ptr)(*arr_ptr);   
-//         arr_ptr += 1;
-//     }
-
-//     return 0;
-// }
